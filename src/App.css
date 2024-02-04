@@ -1,0 +1,21 @@
+button {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient( to right, #f84af8, #bc13ea, #f55cf5 );
+    transition: .8s;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+button:hover {
+    background: linear-gradient( to right, #f55cf5, #bc13ea, #f84af8 );
+    filter: brightness(70%);
+}
+
+button:active {
+    background: linear-gradient( to right, #bc13ea, #f55cf5, #f84af8 );
+    transform: scale(1.1);
+    font-size: 15px;
+    filter: brightness(90%);
+}
